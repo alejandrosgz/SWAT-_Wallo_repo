@@ -1,0 +1,89 @@
+Created with R on 2023-10-26 23:10:07 using ASG script
+6
+
+NAME		              RULE_TYP		   SRC_OBS   DMD_OBS	CHA_OB
+wtransfs_acca       high_right_first_serve 	                 1	   1         y
+NUM	OB_TYP	OB_NUM	MIN MONTHLY (M3/S FOR CHANNELS; FRAC PRIN SPILL FOR RES; DEP BELOW SURF FOR AQU)
+  1      cha     849    0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01
+NUMB OB_TYP  OB_NUM        WITHDR  AMOUNT   W_RT TR_TYP TREAT RCV_OB  RCV_NUM RCV_DTL  SRCS  SCRC1  FRAC1 COMP1        DESCRIPTION
+1    divert       1   ave_day          2160.0     sr   null  null    acca       1    null     1      1    1.0     n
+
+NAME		              RULE_TYP		   SRC_OBS   DMD_OBS	CHA_OB
+wthdrw_retuns_wro       high_right_first_serve 	                      9    27         n
+NUM	OB_TYP	OB_NUM	MIN MONTHLY (M3/S FOR CHANNELS; FRAC PRIN SPILL FOR RES; DEP BELOW SURF FOR AQU)
+  1      res      23     0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15
+  2      res      4      0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15
+  3      res      28     0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 
+NUMB OB_TYP  OB_NUM        WITHDR  AMOUNT   W_RT TR_TYP TREAT RCV_OB  RCV_NUM RCV_DTL  SRCS  SCRC1  FRAC1 COMP1        DESCRIPTION
+ 1    divert       1   wr_almoguera_1      0.0     sr   null  null    cha      882    null     1      1    1.0     n
+ 2    divert       1   wr_almoguera_2      0.0     sr   null  null    cha      858    null     1      1    1.0     n
+ 3    divert       1   wr_almoguera_3      0.0     sr   null  null    cha      912    null     1      1    1.0     n
+ 4    divert       1   wr_almoguera_4      0.0     sr   null  null    cha      1127   null     1      1    1.0     n
+ 5    divert       1   wr_picadas_1        0.0     sr   null  null    cha      1126   null     1      2    1.0     n
+ 6    divert       1   wr_picadas_2        0.0     sr   null  null    cha      492    null     1      2    1.0     n
+ 7    divert       1   wr_amso_1           0.0     sr   null  null    cha      839    null     1      2    1.0     n
+ 8    divert       1   wr_amso_2           0.0     sr   null  null    cha      691    null     1      2    1.0     n    
+ 9    divert       1   wr_jarama_1         0.0     sr   null  null    cha      155    null     1      3    1.0     n
+10    divert       1   wr_jarama_2         0.0     sr   null  null    cha      460    null     1      3    1.0     n
+11    divert       1   wr_jarama_3         0.0     sr   null  null    cha      133    null     1      3    1.0     n
+12    divert       1   wr_jarama_4         0.0     sr   null  null    cha      445    null     1      3    1.0     n
+13    divert       1   wr_jarama_5         0.0     sr   null  null    cha      459    null     1      3    1.0     n
+14    divert       1   wr_jarama_6         0.0     sr   null  null    cha      913    null     1      3    1.0     n
+15    divert       1   wr_jarama_7         0.0     sr   null  null    cha      930    null     1      3    1.0     n
+
+NAME		              RULE_TYP		   SRC_OBS   DMD_OBS	CHA_OB
+wtransfs_out_wro       high_right_first_serve 	                 5	   5         n
+NUM	OB_TYP	OB_NUM	MIN MONTHLY (M3/S FOR CHANNELS; FRAC PRIN SPILL FOR RES; DEP BELOW SURF FOR AQU)
+  1      res      27     0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15
+  2      res       5     0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15 0.15
+NUMB OB_TYP  OB_NUM        WITHDR  AMOUNT   W_RT TR_TYP TREAT RCV_OB  RCV_NUM RCV_DTL  SRCS  SCRC1  FRAC1 COMP1        DESCRIPTION
+1    divert       1   out_tag_seg_wt      0.0     sr   null  null    tswt       1    null     1      1    1.0     n
+2    divert       1   out_czalegas_wt     0.0     sr   null  null    czlg       1    null     1      2    1.0     n
+
+NAME		              RULE_TYP		   SRC_OBS   DMD_OBS	CHA_OB
+channel_13_irrig    high_right_first_serve    1    2    y
+NUM	OB_TYP	OB_NUM	MIN MONTHLY (M3/S FOR CHANNELS; FRAC PRIN SPILL FOR RES; DEP BELOW SURF FOR AQU)
+1    cha    13    0.01     0.01     0.01     0.01     0.01     0.01     0.01     0.01     0.01     0.01     0.01     0.01
+NUMB OB_TYP  OB_NUM        WITHDR  AMOUNT   W_RT TR_TYP TREAT RCV_OB  RCV_NUM RCV_DTL  SRCS  SCRC1  FRAC1 COMP1        DESCRIPTION
+1	hru	2556	irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+2	hru	2557	irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+
+NAME		              RULE_TYP		   SRC_OBS   DMD_OBS	CHA_OB
+channel_15_irrig    high_right_first_serve    1    16    y
+NUM	OB_TYP	OB_NUM	MIN MONTHLY (M3/S FOR CHANNELS; FRAC PRIN SPILL FOR RES; DEP BELOW SURF FOR AQU)
+1    cha    15    0.01     0.01     0.01     0.01     0.01     0.01     0.01     0.01     0.01     0.01     0.01     0.01
+NUMB OB_TYP  OB_NUM        WITHDR  AMOUNT   W_RT TR_TYP TREAT RCV_OB  RCV_NUM RCV_DTL  SRCS  SCRC1  FRAC1 COMP1        DESCRIPTION
+1	hru	1015	irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+2	hru	1016	irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+3	hru	1017	irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+4	hru	1018	irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+5	hru	930 	irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+6	hru	931 	irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+7	hru	932 	irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+8	hru	933 	irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+9	hru	826 	irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+10	hru	827 	irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+11	hru	777 	irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+12	hru	778 	irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+13	hru	779 	irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+14	hru	780 	irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+15	hru	809 	irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+16	hru	810 	irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+
+NAME		              RULE_TYP		   SRC_OBS   DMD_OBS	CHA_OB
+channel_19_irrig    high_right_first_serve    1    12    y
+NUM	OB_TYP	OB_NUM	MIN MONTHLY (M3/S FOR CHANNELS; FRAC PRIN SPILL FOR RES; DEP BELOW SURF FOR AQU)
+1    cha    19    0.01     0.01     0.01     0.01     0.01     0.01     0.01     0.01     0.01     0.01     0.01     0.01
+NUMB OB_TYP  OB_NUM        WITHDR  AMOUNT   W_RT TR_TYP TREAT RCV_OB  RCV_NUM RCV_DTL  SRCS  SCRC1  FRAC1 COMP1        DESCRIPTION
+ 1	hru	452	    irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+ 2	hru	453	    irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+ 3	hru	434	    irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+ 4	hru	435	    irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+ 5	hru	436	    irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+ 6	hru	437	    irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+ 7	hru	388	    irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+ 8	hru	389	    irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+ 9	hru	340	    irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+10	hru	341	    irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+11	hru	342	    irr_crt       12	sr	null	null	null	0	null	1	1	1	n
+12	hru	343	    irr_crt       12	sr	null	null	null	0	null	1	1	1	n

@@ -1,0 +1,359 @@
+flo_con.dtl
+ 17
+
+NAME   	        CONDS	ALTS	ACTS
+out_tag_seg_wt        10	 6	 6
+ VAR		        OBJ	 OB_NUM	LIM_VAR		LIM_OP		LIM_CONST	      	    ALT1    ALT2   ALT3   ALT4    ALT5    ALT6
+month               null      0    null        -       2.00000                    -      >      -       -       -       -
+month               null      0    null        -       3.00000                    <      -      -       -       -       - 
+month               null      0    null        -       4.00000                    -      -      >       -       -       - 
+month               null      0    null        -       5.00000                    -      <      -       -       -       - 
+month               null      0    null        -       6.00000                    -      -      -       >       -       - 
+month               null      0    null        -       7.00000                    -      -      <       -       -       - 
+month               null      0    null        -       8.00000                    -      -      -       -       >       - 
+month               null      0    null        -       9.00000                    -      -      -       <       -       - 
+month               null      0    null        -      10.00000                    -      -      -       -       -       > 
+month               null      0    null        -      11.00000                    -      -      -       -       <       -
+ ACT_TYP    	        OBJ    OBJ_NUM   NAME            OPTION    CONST    CONST2      FP         	OUTCOMES
+divert	            null      0	 tswt_dvt_1	 flo_cms   9.07	      0         null	    y   n   n   n   n   n
+divert	            null      0	 tswt_dvt_2	 flo_cms  14.00	      0         null	    n   y   n   n   n   n
+divert	            null      0	 tswt_dvt_3	 flo_cms  14.00	      0         null	    n   n   y   n   n   n
+divert	            null      0	 tswt_dvt_4	 flo_cms  15.60	      0         null	    n   n   n   y   n   n
+divert	            null      0	 tswt_dvt_5	 flo_cms   8.04	      0         null	    n   n   n   n   y   n
+divert	            null      0	 tswt_dvt_6	 flo_cms   7.20	      0         null	    n   n   n   n   n   y
+
+NAME   	        CONDS	ALTS	ACTS
+out_czalegas_wt        10	 6	 6
+ VAR		        OBJ	 OB_NUM	LIM_VAR		LIM_OP		LIM_CONST	      	    ALT1    ALT2   ALT3   ALT4    ALT5    ALT6
+month               null      0    null        -       2.00000                    -      >      -       -       -       -
+month               null      0    null        -       3.00000                    <      -      -       -       -       - 
+month               null      0    null        -       4.00000                    -      -      >       -       -       - 
+month               null      0    null        -       5.00000                    -      <      -       -       -       - 
+month               null      0    null        -       6.00000                    -      -      -       >       -       - 
+month               null      0    null        -       7.00000                    -      -      <       -       -       - 
+month               null      0    null        -       8.00000                    -      -      -       -       >       - 
+month               null      0    null        -       9.00000                    -      -      -       <       -       - 
+month               null      0    null        -      10.00000                    -      -      -       -       -       > 
+month               null      0    null        -      11.00000                    -      -      -       -       <       -
+ ACT_TYP    	        OBJ    OBJ_NUM   NAME            OPTION    CONST    CONST2      FP         	OUTCOMES
+divert	            null      0	 czlg_dvt_1	 flo_cms   0.36	      0         null	    y   n   n   n   n   n
+divert	            null      0	 czlg_dvt_2	 flo_cms   1.12	      0         null	    n   y   n   n   n   n
+divert	            null      0	 czlg_dvt_3	 flo_cms   4.55	      0         null	    n   n   y   n   n   n
+divert	            null      0	 czlg_dvt_4	 flo_cms   6.49	      0         null	    n   n   n   y   n   n
+divert	            null      0	 czlg_dvt_5	 flo_cms   2.01	      0         null	    n   n   n   n   y   n
+divert	            null      0	 czlg_dvt_6	 flo_cms   0.33	      0         null	    n   n   n   n   n   y
+
+NAME   	        CONDS	ALTS	ACTS
+wr_almoguera_1     10	 6	 6
+ VAR		        OBJ	 OB_NUM	LIM_VAR		LIM_OP		LIM_CONST	      	    ALT1    ALT2   ALT3   ALT4    ALT5    ALT6
+month               null      0    null        -       2.00000                    -      >      -       -       -       -
+month               null      0    null        -       3.00000                    <      -      -       -       -       - 
+month               null      0    null        -       4.00000                    -      -      >       -       -       - 
+month               null      0    null        -       5.00000                    -      <      -       -       -       - 
+month               null      0    null        -       6.00000                    -      -      -       >       -       - 
+month               null      0    null        -       7.00000                    -      -      <       -       -       - 
+month               null      0    null        -       8.00000                    -      -      -       -       >       - 
+month               null      0    null        -       9.00000                    -      -      -       <       -       - 
+month               null      0    null        -      10.00000                    -      -      -       -       -       > 
+month               null      0    null        -      11.00000                    -      -      -       -       <       -
+ ACT_TYP    	        OBJ    OBJ_NUM   NAME            OPTION    CONST    CONST2      FP         	OUTCOMES
+divert	            null      0	 alm1_dvrt_1  flo_cms   0.148      0         null	    y   n   n   n   n   n
+divert	            null      0	 alm1_dvrt_2  flo_cms   0.149      0         null	    n   y   n   n   n   n
+divert	            null      0	 alm1_dvrt_3  flo_cms   0.185      0         null	    n   n   y   n   n   n
+divert	            null      0	 alm1_dvrt_4  flo_cms   0.214      0         null	    n   n   n   y   n   n
+divert	            null      0	 alm1_dvrt_5  flo_cms   0.176      0         null	    n   n   n   n   y   n
+divert	            null      0	 alm1_dvrt_6  flo_cms   0.152      0         null	    n   n   n   n   n   y
+
+NAME   	        CONDS	ALTS	ACTS
+wr_almoguera_2     10	 6	 6
+ VAR		        OBJ	 OB_NUM	LIM_VAR		LIM_OP		LIM_CONST	      	    ALT1    ALT2   ALT3   ALT4    ALT5    ALT6
+month               null      0    null        -       2.00000                    -      >      -       -       -       -
+month               null      0    null        -       3.00000                    <      -      -       -       -       - 
+month               null      0    null        -       4.00000                    -      -      >       -       -       - 
+month               null      0    null        -       5.00000                    -      <      -       -       -       - 
+month               null      0    null        -       6.00000                    -      -      -       >       -       - 
+month               null      0    null        -       7.00000                    -      -      <       -       -       - 
+month               null      0    null        -       8.00000                    -      -      -       -       >       - 
+month               null      0    null        -       9.00000                    -      -      -       <       -       - 
+month               null      0    null        -      10.00000                    -      -      -       -       -       > 
+month               null      0    null        -      11.00000                    -      -      -       -       <       -
+ ACT_TYP    	        OBJ    OBJ_NUM   NAME            OPTION    CONST    CONST2      FP         	OUTCOMES
+divert	            null      0	 alm2_dvrt_1  flo_cms   0.159      0         null	    y   n   n   n   n   n
+divert	            null      0	 alm2_dvrt_2  flo_cms   0.161      0         null	    n   y   n   n   n   n
+divert	            null      0	 alm2_dvrt_3  flo_cms   0.199      0         null	    n   n   y   n   n   n
+divert	            null      0	 alm2_dvrt_4  flo_cms   0.231      0         null	    n   n   n   y   n   n
+divert	            null      0	 alm2_dvrt_5  flo_cms   0.190      0         null	    n   n   n   n   y   n
+divert	            null      0	 alm2_dvrt_6  flo_cms   0.165      0         null	    n   n   n   n   n   y
+
+NAME   	        CONDS	ALTS	ACTS
+wr_almoguera_3     10	 6	 6
+ VAR		        OBJ	 OB_NUM	LIM_VAR		LIM_OP		LIM_CONST	      	    ALT1    ALT2   ALT3   ALT4    ALT5    ALT6
+month               null      0    null        -       2.00000                    -      >      -       -       -       -
+month               null      0    null        -       3.00000                    <      -      -       -       -       - 
+month               null      0    null        -       4.00000                    -      -      >       -       -       - 
+month               null      0    null        -       5.00000                    -      <      -       -       -       - 
+month               null      0    null        -       6.00000                    -      -      -       >       -       - 
+month               null      0    null        -       7.00000                    -      -      <       -       -       - 
+month               null      0    null        -       8.00000                    -      -      -       -       >       - 
+month               null      0    null        -       9.00000                    -      -      -       <       -       - 
+month               null      0    null        -      10.00000                    -      -      -       -       -       > 
+month               null      0    null        -      11.00000                    -      -      -       -       <       -
+ ACT_TYP    	        OBJ    OBJ_NUM   NAME            OPTION    CONST    CONST2      FP         	OUTCOMES
+divert	            null      0	 alm3_dvrt_1  flo_cms    0.033     0         null	    y   n   n   n   n   n
+divert	            null      0	 alm3_dvrt_2  flo_cms    0.034     0         null	    n   y   n   n   n   n
+divert	            null      0	 alm3_dvrt_3  flo_cms    0.042     0         null	    n   n   y   n   n   n
+divert	            null      0	 alm3_dvrt_4  flo_cms    0.048     0         null	    n   n   n   y   n   n
+divert	            null      0	 alm3_dvrt_5  flo_cms    0.040     0         null	    n   n   n   n   y   n
+divert	            null      0	 alm3_dvrt_6  flo_cms    0.034     0         null	    n   n   n   n   n   y
+
+NAME   	        CONDS	ALTS	ACTS
+wr_almoguera_4     10	 6	 6
+ VAR		        OBJ	 OB_NUM	LIM_VAR		LIM_OP		LIM_CONST	      	    ALT1    ALT2   ALT3   ALT4    ALT5    ALT6
+month               null      0    null        -       2.00000                    -      >      -       -       -       -
+month               null      0    null        -       3.00000                    <      -      -       -       -       - 
+month               null      0    null        -       4.00000                    -      -      >       -       -       - 
+month               null      0    null        -       5.00000                    -      <      -       -       -       - 
+month               null      0    null        -       6.00000                    -      -      -       >       -       - 
+month               null      0    null        -       7.00000                    -      -      <       -       -       - 
+month               null      0    null        -       8.00000                    -      -      -       -       >       - 
+month               null      0    null        -       9.00000                    -      -      -       <       -       - 
+month               null      0    null        -      10.00000                    -      -      -       -       -       > 
+month               null      0    null        -      11.00000                    -      -      -       -       <       -
+ ACT_TYP    	        OBJ    OBJ_NUM   NAME            OPTION    CONST    CONST2      FP         	OUTCOMES
+divert	            null      0	 alm4_dvrt_1  flo_cms    0.483     0         null	    y   n   n   n   n   n
+divert	            null      0	 alm4_dvrt_2  flo_cms    0.488     0         null	    n   y   n   n   n   n
+divert	            null      0	 alm4_dvrt_3  flo_cms    0.604     0         null	    n   n   y   n   n   n
+divert	            null      0	 alm4_dvrt_4  flo_cms    0.700     0         null	    n   n   n   y   n   n
+divert	            null      0	 alm4_dvrt_5  flo_cms    0.575     0         null	    n   n   n   n   y   n
+divert	            null      0	 alm4_dvrt_6  flo_cms    0.499     0         null	    n   n   n   n   n   y
+
+NAME   	        CONDS	ALTS	ACTS
+wr_picadas_1        10	 6	 6
+ VAR		        OBJ	 OB_NUM	LIM_VAR		LIM_OP		LIM_CONST	      	    ALT1    ALT2   ALT3   ALT4    ALT5    ALT6
+month               null      0    null        -       2.00000                    -      >      -       -       -       -
+month               null      0    null        -       3.00000                    <      -      -       -       -       - 
+month               null      0    null        -       4.00000                    -      -      >       -       -       - 
+month               null      0    null        -       5.00000                    -      <      -       -       -       - 
+month               null      0    null        -       6.00000                    -      -      -       >       -       - 
+month               null      0    null        -       7.00000                    -      -      <       -       -       - 
+month               null      0    null        -       8.00000                    -      -      -       -       >       - 
+month               null      0    null        -       9.00000                    -      -      -       <       -       - 
+month               null      0    null        -      10.00000                    -      -      -       -       -       > 
+month               null      0    null        -      11.00000                    -      -      -       -       <       -
+ ACT_TYP    	        OBJ    OBJ_NUM   NAME            OPTION    CONST    CONST2      FP         	OUTCOMES
+divert	            null      0	 pic1_dvrt_1  flo_cms    0.323     0         null	    y   n   n   n   n   n
+divert	            null      0	 pic1_dvrt_2  flo_cms    0.326     0         null	    n   y   n   n   n   n
+divert	            null      0	 pic1_dvrt_3  flo_cms    0.403     0         null	    n   n   y   n   n   n
+divert	            null      0	 pic1_dvrt_4  flo_cms    0.467     0         null	    n   n   n   y   n   n
+divert	            null      0	 pic1_dvrt_5  flo_cms    0.384     0         null	    n   n   n   n   y   n
+divert	            null      0	 pic1_dvrt_6  flo_cms    0.333     0         null	    n   n   n   n   n   y
+
+NAME   	        CONDS	ALTS	ACTS
+wr_picadas_2        10	 6	 6
+ VAR		        OBJ	 OB_NUM	LIM_VAR		LIM_OP		LIM_CONST	      	    ALT1    ALT2   ALT3   ALT4    ALT5    ALT6
+month               null      0    null        -       2.00000                    -      >      -       -       -       -
+month               null      0    null        -       3.00000                    <      -      -       -       -       - 
+month               null      0    null        -       4.00000                    -      -      >       -       -       - 
+month               null      0    null        -       5.00000                    -      <      -       -       -       - 
+month               null      0    null        -       6.00000                    -      -      -       >       -       - 
+month               null      0    null        -       7.00000                    -      -      <       -       -       - 
+month               null      0    null        -       8.00000                    -      -      -       -       >       - 
+month               null      0    null        -       9.00000                    -      -      -       <       -       - 
+month               null      0    null        -      10.00000                    -      -      -       -       -       > 
+month               null      0    null        -      11.00000                    -      -      -       -       <       -
+ ACT_TYP    	        OBJ    OBJ_NUM   NAME            OPTION    CONST    CONST2      FP         	OUTCOMES
+divert	            null      0	 pic2_dvrt_1  flo_cms    0.379     0         null	    y   n   n   n   n   n
+divert	            null      0	 pic2_dvrt_2  flo_cms    0.382     0         null	    n   y   n   n   n   n
+divert	            null      0	 pic2_dvrt_3  flo_cms    0.474     0         null	    n   n   y   n   n   n
+divert	            null      0	 pic2_dvrt_4  flo_cms    0.549     0         null	    n   n   n   y   n   n
+divert	            null      0	 pic2_dvrt_5  flo_cms    0.451     0         null	    n   n   n   n   y   n
+divert	            null      0	 pic2_dvrt_6  flo_cms    0.391     0         null	    n   n   n   n   n   y
+
+NAME   	        CONDS	ALTS	ACTS
+wr_jarama_1       10	 6	 6
+ VAR		        OBJ	 OB_NUM	LIM_VAR		LIM_OP		LIM_CONST	      	    ALT1    ALT2   ALT3   ALT4    ALT5    ALT6
+month               null      0    null        -       2.00000                    -      >      -       -       -       -
+month               null      0    null        -       3.00000                    <      -      -       -       -       - 
+month               null      0    null        -       4.00000                    -      -      >       -       -       - 
+month               null      0    null        -       5.00000                    -      <      -       -       -       - 
+month               null      0    null        -       6.00000                    -      -      -       >       -       - 
+month               null      0    null        -       7.00000                    -      -      <       -       -       - 
+month               null      0    null        -       8.00000                    -      -      -       -       >       - 
+month               null      0    null        -       9.00000                    -      -      -       <       -       - 
+month               null      0    null        -      10.00000                    -      -      -       -       -       > 
+month               null      0    null        -      11.00000                    -      -      -       -       <       -
+ ACT_TYP    	        OBJ    OBJ_NUM   NAME            OPTION    CONST    CONST2      FP         	OUTCOMES
+divert	            null      0	 jm1_dvrt_1	 flo_cms   0.017      0         null	    y   n   n   n   n   n
+divert	            null      0	 jm1_dvrt_2	 flo_cms   0.031      0         null	    n   y   n   n   n   n
+divert	            null      0	 jm1_dvrt_3	 flo_cms   0.034      0         null	    n   n   y   n   n   n
+divert	            null      0	 jm1_dvrt_4	 flo_cms   0.019      0         null	    n   n   n   y   n   n
+divert	            null      0	 jm1_dvrt_5	 flo_cms   0.005      0         null	    n   n   n   n   y   n
+divert	            null      0	 jm1_dvrt_6	 flo_cms   0.009      0         null	    n   n   n   n   n   y
+
+NAME   	        CONDS	ALTS	ACTS
+wr_jarama_2       10	 6	 6
+ VAR		        OBJ	 OB_NUM	LIM_VAR		LIM_OP		LIM_CONST	      	    ALT1    ALT2   ALT3   ALT4    ALT5    ALT6
+month               null      0    null        -       2.00000                    -      >      -       -       -       -
+month               null      0    null        -       3.00000                    <      -      -       -       -       - 
+month               null      0    null        -       4.00000                    -      -      >       -       -       - 
+month               null      0    null        -       5.00000                    -      <      -       -       -       - 
+month               null      0    null        -       6.00000                    -      -      -       >       -       - 
+month               null      0    null        -       7.00000                    -      -      <       -       -       - 
+month               null      0    null        -       8.00000                    -      -      -       -       >       - 
+month               null      0    null        -       9.00000                    -      -      -       <       -       - 
+month               null      0    null        -      10.00000                    -      -      -       -       -       > 
+month               null      0    null        -      11.00000                    -      -      -       -       <       -
+ ACT_TYP    	        OBJ    OBJ_NUM   NAME            OPTION    CONST    CONST2      FP         	OUTCOMES
+divert	            null      0	 jm2_dvrt_1	 flo_cms   1.240	      0         null	    y   n   n   n   n   n
+divert	            null      0	 jm2_dvrt_2	 flo_cms   2.303	      0         null	    n   y   n   n   n   n
+divert	            null      0	 jm2_dvrt_3	 flo_cms   2.490	      0         null	    n   n   y   n   n   n
+divert	            null      0	 jm2_dvrt_4	 flo_cms   1.412	      0         null	    n   n   n   y   n   n
+divert	            null      0	 jm2_dvrt_5	 flo_cms   0.400	      0         null	    n   n   n   n   y   n
+divert	            null      0	 jm2_dvrt_6	 flo_cms   0.698	      0         null	    n   n   n   n   n   y
+
+NAME   	        CONDS	ALTS	ACTS
+wr_jarama_3       10	 6	 6
+ VAR		        OBJ	 OB_NUM	LIM_VAR		LIM_OP		LIM_CONST	      	    ALT1    ALT2   ALT3   ALT4    ALT5    ALT6
+month               null      0    null        -       2.00000                    -      >      -       -       -       -
+month               null      0    null        -       3.00000                    <      -      -       -       -       - 
+month               null      0    null        -       4.00000                    -      -      >       -       -       - 
+month               null      0    null        -       5.00000                    -      <      -       -       -       - 
+month               null      0    null        -       6.00000                    -      -      -       >       -       - 
+month               null      0    null        -       7.00000                    -      -      <       -       -       - 
+month               null      0    null        -       8.00000                    -      -      -       -       >       - 
+month               null      0    null        -       9.00000                    -      -      -       <       -       - 
+month               null      0    null        -      10.00000                    -      -      -       -       -       > 
+month               null      0    null        -      11.00000                    -      -      -       -       <       -
+ ACT_TYP    	        OBJ    OBJ_NUM   NAME            OPTION    CONST    CONST2      FP         	OUTCOMES
+divert	            null      0	 jm3_dvrt_1	 flo_cms   0.118      0         null	    y   n   n   n   n   n
+divert	            null      0	 jm3_dvrt_2	 flo_cms   0.220      0         null	    n   y   n   n   n   n
+divert	            null      0	 jm3_dvrt_3	 flo_cms   0.238      0         null	    n   n   y   n   n   n
+divert	            null      0	 jm3_dvrt_4	 flo_cms   0.135      0         null	    n   n   n   y   n   n
+divert	            null      0	 jm3_dvrt_5	 flo_cms   0.038      0         null	    n   n   n   n   y   n
+divert	            null      0	 jm3_dvrt_6	 flo_cms   0.067      0         null	    n   n   n   n   n   y
+
+NAME   	        CONDS	ALTS	ACTS
+wr_jarama_4       10	 6	 6
+ VAR		        OBJ	 OB_NUM	LIM_VAR		LIM_OP		LIM_CONST	      	    ALT1    ALT2   ALT3   ALT4    ALT5    ALT6
+month               null      0    null        -       2.00000                    -      >      -       -       -       -
+month               null      0    null        -       3.00000                    <      -      -       -       -       - 
+month               null      0    null        -       4.00000                    -      -      >       -       -       - 
+month               null      0    null        -       5.00000                    -      <      -       -       -       - 
+month               null      0    null        -       6.00000                    -      -      -       >       -       - 
+month               null      0    null        -       7.00000                    -      -      <       -       -       - 
+month               null      0    null        -       8.00000                    -      -      -       -       >       - 
+month               null      0    null        -       9.00000                    -      -      -       <       -       - 
+month               null      0    null        -      10.00000                    -      -      -       -       -       > 
+month               null      0    null        -      11.00000                    -      -      -       -       <       -
+ ACT_TYP    	        OBJ    OBJ_NUM   NAME            OPTION    CONST    CONST2      FP         	OUTCOMES
+divert	            null      0	 jm4_dvrt_1	 flo_cms   0.363      0         null	    y   n   n   n   n   n
+divert	            null      0	 jm4_dvrt_2	 flo_cms   0.674      0         null	    n   y   n   n   n   n
+divert	            null      0	 jm4_dvrt_3	 flo_cms   0.728      0         null	    n   n   y   n   n   n
+divert	            null      0	 jm4_dvrt_4	 flo_cms   0.413      0         null	    n   n   n   y   n   n
+divert	            null      0	 jm4_dvrt_5	 flo_cms   0.117      0         null	    n   n   n   n   y   n
+divert	            null      0	 jm4_dvrt_6	 flo_cms   0.204      0         null	    n   n   n   n   n   y
+
+NAME   	        CONDS	ALTS	ACTS
+wr_jarama_5       10	 6	 6
+ VAR		        OBJ	 OB_NUM	LIM_VAR		LIM_OP		LIM_CONST	      	    ALT1    ALT2   ALT3   ALT4    ALT5    ALT6
+month               null      0    null        -       2.00000                    -      >      -       -       -       -
+month               null      0    null        -       3.00000                    <      -      -       -       -       - 
+month               null      0    null        -       4.00000                    -      -      >       -       -       - 
+month               null      0    null        -       5.00000                    -      <      -       -       -       - 
+month               null      0    null        -       6.00000                    -      -      -       >       -       - 
+month               null      0    null        -       7.00000                    -      -      <       -       -       - 
+month               null      0    null        -       8.00000                    -      -      -       -       >       - 
+month               null      0    null        -       9.00000                    -      -      -       <       -       - 
+month               null      0    null        -      10.00000                    -      -      -       -       -       > 
+month               null      0    null        -      11.00000                    -      -      -       -       <       -
+ ACT_TYP    	        OBJ    OBJ_NUM   NAME            OPTION    CONST    CONST2      FP         	OUTCOMES
+divert	            null      0	 jm5_dvrt_1	 flo_cms   0.067      0         null	    y   n   n   n   n   n
+divert	            null      0	 jm5_dvrt_2	 flo_cms   0.124      0         null	    n   y   n   n   n   n
+divert	            null      0	 jm5_dvrt_3	 flo_cms   0.135      0         null	    n   n   y   n   n   n
+divert	            null      0	 jm5_dvrt_4	 flo_cms   0.076      0         null	    n   n   n   y   n   n
+divert	            null      0	 jm5_dvrt_5	 flo_cms   0.022      0         null	    n   n   n   n   y   n
+divert	            null      0	 jm5_dvrt_6	 flo_cms   0.038      0         null	    n   n   n   n   n   y
+
+NAME   	        CONDS	ALTS	ACTS
+wr_jarama_6       10	 6	 6
+ VAR		        OBJ	 OB_NUM	LIM_VAR		LIM_OP		LIM_CONST	      	    ALT1    ALT2   ALT3   ALT4    ALT5    ALT6
+month               null      0    null        -       2.00000                    -      >      -       -       -       -
+month               null      0    null        -       3.00000                    <      -      -       -       -       - 
+month               null      0    null        -       4.00000                    -      -      >       -       -       - 
+month               null      0    null        -       5.00000                    -      <      -       -       -       - 
+month               null      0    null        -       6.00000                    -      -      -       >       -       - 
+month               null      0    null        -       7.00000                    -      -      <       -       -       - 
+month               null      0    null        -       8.00000                    -      -      -       -       >       - 
+month               null      0    null        -       9.00000                    -      -      -       <       -       - 
+month               null      0    null        -      10.00000                    -      -      -       -       -       > 
+month               null      0    null        -      11.00000                    -      -      -       -       <       -
+ ACT_TYP    	        OBJ    OBJ_NUM   NAME            OPTION    CONST    CONST2      FP         	OUTCOMES
+divert	            null      0	 jm6_dvrt_1	 flo_cms   0.093      0         null	    y   n   n   n   n   n
+divert	            null      0	 jm6_dvrt_2	 flo_cms   0.173      0         null	    n   y   n   n   n   n
+divert	            null      0	 jm6_dvrt_3	 flo_cms   0.187      0         null	    n   n   y   n   n   n
+divert	            null      0	 jm6_dvrt_4	 flo_cms   0.106      0         null	    n   n   n   y   n   n
+divert	            null      0	 jm6_dvrt_5	 flo_cms   0.030      0         null	    n   n   n   n   y   n
+divert	            null      0	 jm6_dvrt_6	 flo_cms   0.053      0         null	    n   n   n   n   n   y
+
+NAME   	        CONDS	ALTS	ACTS
+wr_jarama_7       10	 6	 6
+ VAR		        OBJ	 OB_NUM	LIM_VAR		LIM_OP		LIM_CONST	      	    ALT1    ALT2   ALT3   ALT4    ALT5    ALT6
+month               null      0    null        -       2.00000                    -      >      -       -       -       -
+month               null      0    null        -       3.00000                    <      -      -       -       -       - 
+month               null      0    null        -       4.00000                    -      -      >       -       -       - 
+month               null      0    null        -       5.00000                    -      <      -       -       -       - 
+month               null      0    null        -       6.00000                    -      -      -       >       -       - 
+month               null      0    null        -       7.00000                    -      -      <       -       -       - 
+month               null      0    null        -       8.00000                    -      -      -       -       >       - 
+month               null      0    null        -       9.00000                    -      -      -       <       -       - 
+month               null      0    null        -      10.00000                    -      -      -       -       -       > 
+month               null      0    null        -      11.00000                    -      -      -       -       <       -
+ ACT_TYP    	        OBJ    OBJ_NUM   NAME            OPTION    CONST    CONST2      FP         	OUTCOMES
+divert	            null      0	 jm7_dvrt_1	 flo_cms   0.552      0         null	    y   n   n   n   n   n
+divert	            null      0	 jm7_dvrt_2	 flo_cms   1.025      0         null	    n   y   n   n   n   n
+divert	            null      0	 jm7_dvrt_3	 flo_cms   1.108      0         null	    n   n   y   n   n   n
+divert	            null      0	 jm7_dvrt_4	 flo_cms   0.629      0         null	    n   n   n   y   n   n
+divert	            null      0	 jm7_dvrt_5	 flo_cms   0.178      0         null	    n   n   n   n   y   n
+divert	            null      0	 jm7_dvrt_6	 flo_cms   0.311      0         null	    n   n   n   n   n   y
+
+NAME   	        CONDS	ALTS	ACTS
+wr_amso_1         10	 6	 6
+ VAR		        OBJ	 OB_NUM	LIM_VAR		LIM_OP		LIM_CONST	      	    ALT1    ALT2   ALT3   ALT4    ALT5    ALT6
+month               null      0    null        -       2.00000                    -      >      -       -       -       -
+month               null      0    null        -       3.00000                    <      -      -       -       -       - 
+month               null      0    null        -       4.00000                    -      -      >       -       -       - 
+month               null      0    null        -       5.00000                    -      <      -       -       -       - 
+month               null      0    null        -       6.00000                    -      -      -       >       -       - 
+month               null      0    null        -       7.00000                    -      -      <       -       -       - 
+month               null      0    null        -       8.00000                    -      -      -       -       >       - 
+month               null      0    null        -       9.00000                    -      -      -       <       -       - 
+month               null      0    null        -      10.00000                    -      -      -       -       -       > 
+month               null      0    null        -      11.00000                    -      -      -       -       <       -
+ ACT_TYP    	        OBJ    OBJ_NUM   NAME            OPTION    CONST    CONST2      FP         	OUTCOMES
+divert	            null      0	 am1_dvrt_1	 flo_cms   0.157      0         null	    y   n   n   n   n   n
+divert	            null      0	 am1_dvrt_2	 flo_cms   0.141      0         null	    n   y   n   n   n   n
+divert	            null      0	 am1_dvrt_3	 flo_cms   0.167      0         null	    n   n   y   n   n   n
+divert	            null      0	 am1_dvrt_4	 flo_cms   0.190      0         null	    n   n   n   y   n   n
+divert	            null      0	 am1_dvrt_5	 flo_cms   0.156      0         null	    n   n   n   n   y   n
+divert	            null      0	 am1_dvrt_6	 flo_cms   0.117      0         null	    n   n   n   n   n   y
+
+NAME   	        CONDS	ALTS	ACTS
+wr_amso_2         10	 6	 6
+ VAR		        OBJ	 OB_NUM	LIM_VAR		LIM_OP		LIM_CONST	      	    ALT1    ALT2   ALT3   ALT4    ALT5    ALT6
+month               null      0    null        -       2.00000                    -      >      -       -       -       -
+month               null      0    null        -       3.00000                    <      -      -       -       -       - 
+month               null      0    null        -       4.00000                    -      -      >       -       -       - 
+month               null      0    null        -       5.00000                    -      <      -       -       -       - 
+month               null      0    null        -       6.00000                    -      -      -       >       -       - 
+month               null      0    null        -       7.00000                    -      -      <       -       -       - 
+month               null      0    null        -       8.00000                    -      -      -       -       >       - 
+month               null      0    null        -       9.00000                    -      -      -       <       -       - 
+month               null      0    null        -      10.00000                    -      -      -       -       -       > 
+month               null      0    null        -      11.00000                    -      -      -       -       <       -
+ ACT_TYP    	        OBJ    OBJ_NUM   NAME            OPTION    CONST    CONST2      FP         	OUTCOMES
+divert	            null      0	 am2_dvrt_1	 flo_cms   1.223      0         null	    y   n   n   n   n   n
+divert	            null      0	 am2_dvrt_2	 flo_cms   1.099      0         null	    n   y   n   n   n   n
+divert	            null      0	 am2_dvrt_3	 flo_cms   1.303      0         null	    n   n   y   n   n   n
+divert	            null      0	 am2_dvrt_4	 flo_cms   1.480      0         null	    n   n   n   y   n   n
+divert	            null      0	 am2_dvrt_5	 flo_cms   1.214      0         null	    n   n   n   n   y   n
+divert	            null      0	 am2_dvrt_6	 flo_cms   0.913      0         null	    n   n   n   n   n   y

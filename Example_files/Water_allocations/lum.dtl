@@ -1,0 +1,15 @@
+lum.dtl: written by SWAT+ editor v2.2.0 on 2023-03-24 15:28 for SWAT+ rev.60.5.4
+1
+
+name                     conds      alts      acts  
+irr_crt                     7         3         1  
+var                        obj   obj_num           lim_var            lim_op     lim_const      alt1      alt2      alt3
+month                     null         0              null                 -       3.00000         >         -         - 
+month                     null         0              null                 -       4.00000         -         <         -
+month                     null         0              null                 -      10.00000         -         -         > 
+month                     null         0              null                 -      11.00000         <         -         -
+days_irr                   hru         0              null                 -       3.00000         >         >         >
+w_stress                   hru         0              null                 -       0.90000         <         -         -
+w_stress                   hru         0              null                 -       0.60000         -         <         <
+act_typ                    obj   obj_num              name            option         const       const2                fp  outcome           
+irr_demand                 hru         0       irr_apr_oct      sprinkler_med     20.00000     20.00000                null  y  y  y
